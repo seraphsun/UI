@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.design.code.view.theme.EffectsTextView
+        android:id="@+id/effects"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#000"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="What is design?"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:animateType="scale"/>
+</LinearLayout>

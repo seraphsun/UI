@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ShimmerFrameLayout-->
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="auto_start" format="boolean"/>
+        <attr name="base_alpha" format="float"/>
+        <attr name="duration" format="integer"/>
+        <attr name="repeat_count" format="integer"/>
+        <attr name="repeat_delay" format="integer"/>
+        <attr name="repeat_mode" format="enum">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="angle" format="enum">
+            <enum name="cw_0" value="0"/>
+            <enum name="cw_90" value="90"/>
+            <enum name="cw_180" value="180"/>
+            <enum name="cw_270" value="270"/>
+        </attr>
+        <attr name="dropoff" format="float"/>
+        <attr name="fixed_width" format="dimension"/>
+        <attr name="fixed_height" format="dimension"/>
+        <attr name="intensity" format="float"/>
+        <attr name="relative_width" format="float"/>
+        <attr name="relative_height" format="float"/>
+        <attr name="shimmer_shape" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+        </attr>
+        <attr name="tilt" format="float"/>
+    </declare-styleable>
+
+    <!--MainTabHost-->
+    <declare-styleable name="MainTabHost">
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_select_color" format="color"/>
+        <attr name="text_normal_color" format="color"/>
+        <attr name="item_padding" format="dimension"/>
+    </declare-styleable>
+
+    <!--SwipeFrameLayout-->
+    <declare-styleable name="SwipeFrameLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1"/>
+            <flag name="right" value="2"/>
+            <flag name="top" value="4"/>
+            <flag name="bottom" value="8"/>
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension"/>
+        <attr name="rightEdgeSwipeOffset" format="dimension"/>
+        <attr name="topEdgeSwipeOffset" format="dimension"/>
+        <attr name="bottomEdgeSwipeOffset" format="dimension"/>
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+        <attr name="clickToClose" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float"/>
+        <attr name="toDeg" format="float"/>
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction"/>
+    </declare-styleable>
+
+    <!-- NumberProgressBar -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="numberProgressBarStyle" format="reference"/>
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_offset" format="dimension"/>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- ShapeProgressDialog -->
+    <declare-styleable name="ShapeProgressDialog">
+        <attr name="styles">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr name="styles_color" format="color"/>
+    </declare-styleable>
+
+    <!-- ViewShaping -->
+    <declare-styleable name="ViewShaping">
+        <attr name="loadingText" format="string"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+    </declare-styleable>
+
+    <!-- DropDownMenu -->
+    <declare-styleable name="DropDownLayout">
+        <attr name="DropLineColor" format="color"/>
+        <attr name="DropDividerColor" format="color"/>
+        <attr name="DropTextSelectedColor" format="color"/>
+        <attr name="DropTextUnselectedColor" format="color"/>
+        <attr name="DropBackgroundColor" format="color"/>
+        <attr name="DropMaskColor" format="color"/>
+        <attr name="DropMenuTextSize" format="dimension"/>
+        <attr name="DropMenuSelectedIcon" format="reference"/>
+        <attr name="DropMenuUnselectedIcon" format="reference"/>
+    </declare-styleable>
+
+    <!-- TabsIndicator -->
+    <declare-styleable name="TabsIndicator">
+        <attr name="PaddingTop" format="dimension|reference"/>
+        <attr name="PaddingBottom" format="dimension|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="textSizeNormal" format="dimension|reference"/>
+        <attr name="textSizeSelected" format="dimension|reference"/>
+        <attr name="indicatorMarginTab" format="dimension|reference"/>
+        <attr name="indicatorColor" format="color|reference"/>
+        <attr name="indicatorHeight" format="dimension|reference"/>
+        <attr name="indicatorPosition">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="hasDivider" format="boolean"/>
+        <attr name="dividerColor" format="color|reference"/>
+        <attr name="dividerWidth" format="dimension|reference"/>
+        <attr name="dividerVerticalMargin" format="dimension|reference"/>
+        <attr name="underLineColor" format="color|reference"/>
+        <attr name="underLineHeight" format="dimension|reference"/>
+    </declare-styleable>
+
+    <!-- TextEffects -->
+    <declare-styleable name="TextEffects">
+        <attr name="isAnimate" format="boolean"/>
+        <attr name="animateType" format="enum">
+            <enum name="scale" value="0"/>
+            <enum name="evaporate" value="1"/>
+            <enum name="fall" value="2"/>
+            <enum name="sparkle" value="3"/>
+            <enum name="anvil" value="4"/>
+            <enum name="line" value="5"/>
+            <enum name="typer" value="6"/>
+            <enum name="rainbow" value="7"/>
+        </attr>
+    </declare-styleable>
+</resources>

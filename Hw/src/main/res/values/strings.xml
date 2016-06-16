@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QQ</string>
+
+    <!--guide-->
+    <string name="first_title">九歌·少司命</string>
+    <string name="first_desc">入不言兮出不辞，乘回风兮载云旗。\n悲莫悲兮生别离，乐莫乐兮新相知。</string>
+    <string name="second_title">九歌·湘夫人</string>
+    <string name="second_desc">搴汀洲兮杜若，将以遗兮远者。\n时不可兮骤得，聊逍遥兮容与。</string>
+    <string name="third_title">王风·黍离</string>
+    <string name="third_desc">知我者谓我心忧，不知我者谓我何求，\n悠悠苍天，此何人哉？</string>
+
+    <string name="xiang_jun">君不行兮夷犹，蹇谁留兮中洲；\n美要眇兮宜修，沛吾乘兮桂舟；\n令沅湘兮无波，使江水兮安流；\n望夫君兮未来，吹参差兮谁思；\n驾飞龙兮北征，邅吾道兮洞庭；\n薜荔柏兮蕙绸，荪桡兮兰旌；\n望涔阳兮极浦，横大江兮扬灵；\n扬灵兮未极，女婵媛兮为余太息；\n横流涕兮潺湲，隐思君兮陫侧；\n桂棹兮兰枻，斵冰兮积雪；\n采薜荔兮水中，搴芙蓉兮木末；\n心不同兮媒劳，恩不甚兮轻绝；\n石濑兮浅浅，飞龙兮翩翩；\n交不忠兮怨长，期不信兮告余以不闲；\n朝骋骛兮江皋，夕弭节兮北渚；\n鸟次兮屋上，水周兮堂下；\n捐余玦兮江中，遗余佩兮醴浦；\n采芳洲兮杜若，将以遗兮下女；\n时不可兮再得，聊逍遥兮容与。</string>
+
+</resources>
